@@ -1,0 +1,6 @@
+[General]
+color = #1296db
+name = Rewrite API Path
+description = Rewrite /api/web/ to /maycur-pro/web/
+[rewrite_local]
+^http://(.+?)/api/web/(.*)$ http://$1/maycur-pro/web/$2 302
