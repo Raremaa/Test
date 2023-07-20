@@ -2,5 +2,5 @@
 color = #1296db
 name = Rewrite API Path
 description = Rewrite /api/web/ to /maycur-pro/web/
-[rewrite_local]
-^http://(.+?)/api/web/(.*)$ http://$1/maycur-pro/web/$2 302
+[URL Rewrite]
+^https:\/\/ng-dev2\.maycur\.com\/api\/web\/(.*) http://127.0.0.1:9090/maycur-pro/web/$1 302
